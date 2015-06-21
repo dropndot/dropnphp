@@ -1,0 +1,292 @@
+<?php
+
+$lang = array(
+    'DASHBOARD'           => 'Dashboard',
+    'PAGES'               => 'Pages',
+    'CONTENT'             => 'Content',
+    'CATEGORIES'          => 'Categories',
+    'ARTICLES'            => 'Articles',
+    'GALLERY'            => 'Image Gallery',
+    'VIDEOGALLERY'            => 'Video Gallery',
+    'STATEMENT'            => 'Statements',
+    'NOTICE'            => 'Notice',
+    'MARKETING'            => 'Marketing & Distribution',
+    'LINKS'            => 'Links',
+    'BLOCKS'              => 'Blocks',
+    'SIDEBAR'              => 'Manage Sidebar',
+    'SHOP'              => 'Shop',
+    'DINE'              => 'Dine',
+    'OFFERS'              => 'Offers',
+    'EVENTS'              => 'Events',
+    'MESSAGES'            => 'Messages',
+    'SETTINGS'            => 'Settings',
+    'MENUS'               => 'Menus',
+    'MEDIA'               => 'Media',
+    'BACKUP'              => 'Backup',
+    'MANAGEMENT'          => 'Management',
+    'BANNERMANAGEMENT'    => 'Banner',
+    'PRODUCT'             => 'Product category',
+    'NEWS'                => 'News',
+    'NEWSLATER'                => 'Newslater',
+    'CLIENTS'             => 'Clients Logo',
+    'SERVICES'            => 'Services',
+    'SLIDERMANAGEMENT'    => 'Slider',
+    'ORGANIZERMANAGEMENT' => 'Organizer',
+    'DOWNLOADMANAGEMENT'  => 'Media Download',
+    'MESSAGESMANAGEMENT'  => 'Messages',
+    'NEWSMANAGEMENT'      => 'News',
+    'LOGOUT'              => 'Logout',
+	
+    'BUTTON_ADD_NEW'	  => 'Add New',
+    'BUTTON_CLOSE'	  => 'CLOSE',
+    'BUTTON_PAGE_PREV'	  => 'Prev',
+    'BUTTON_PAGE_NEXT'	  => 'Next',
+    'BUTTON_EDIT'         => 'Edit',
+    'BUTTON_DELETE'       => 'Delete',
+    'BUTTON_CANCEL'       => 'Cancel',
+    'BUTTON_CONTINUE'	  => 'Continue',
+    'BUTTON_BACK'         => 'Back',
+    'BUTTON_YES'      => 'Yes',
+    'BUTTON_NO'           => 'No',
+    'BUTTON_LOGIN'        => 'Login',
+    'BUTTON_SUBMIT'       => 'Submit',
+    
+    
+    'ERROR_LOGIN'         => 'Invalid username or password provided.',
+    'ERR_CHANGE_PASS'         => 'Invalid email address please try again.',
+    'CHANGE_PASS_DONE'    => 'Administrator password already reset, please check your mail.',
+    
+    'SUCCESS_DOWNLOAD_SAVE'      => 'Download file has been saved successfully.',
+    'SUCCESS_DOWNLOAD_UPDATE'    => 'Download file has been updated successfully.',
+    'SUCCESS_DOWNLOAD_DELETE'    => 'Download file has been deleted successfully.', 
+    'SUCCESS_DOWNLOAD_STATUS'    => 'Download file status has been updated successfully.',
+    
+    'SUCCESS_PAGE_SAVE'      => 'Page has been saved successfully.',
+    'SUCCESS_PAGE_UPDATE'    => 'Page has been updated successfully.',
+    'SUCCESS_PAGE_DELETE'    => 'Page has been deleted successfully.', 
+    'SUCCESS_PAGE_STATUS'    => 'Page status has been updated successfully.',
+    
+    'SUCCESS_MENU_SAVE'      => 'Menu has been saved successfully.',
+    'SUCCESS_MENU_UPDATE'    => 'Menu has been updated successfully.',
+    'SUCCESS_MENU_DELETE'    => 'Menu has been deleted successfully.', 
+    'SUCCESS_MENU_STATUS'    => 'Menu status has been updated successfully.',
+    
+    'SUCCESS_MENU_ITEM_SAVE'      => 'Menu item has been saved successfully.',
+    'SUCCESS_MENU_ITEM_UPDATE'    => 'Menu item has been updated successfully.',
+    'SUCCESS_PAGE_ITEM_DELETE'    => 'Menu item has been deleted successfully.', 
+    'SUCCESS_MENU_ITEM_STATUS'    => 'Menu item status has been updated successfully.', 
+    
+    'SUCCESS_CATEGORY_SAVE'      => 'Category information has been saved successfully.',
+    'SUCCESS_CATEGORY_UPDATE'    => 'Category has been updated successfully.',
+    'SUCCESS_CATEGORY_DELETE'    => 'Category item has been deleted successfully.', 
+    'SUCCESS_CATEGORY_STATUS'   => 'Category status has been updated successfully.',
+    
+    'SUCCESS_ARTICLE_SAVE'       => 'Article has been saved successfully.',
+    'SUCCESS_ARTICLE_UPDATE'     => 'Article has been updated successfully.',
+    'SUCCESS_ARTICLE_DELETE'     => 'Article has been deleted successfully.',
+    'SUCCESS_ARTICLE_STATUS'   => 'Article status has been updated successfully.',
+    
+    'SUCCESS_SHOP_CATEGORY_SAVE'       => 'Shop category has been saved successfully.',
+    'SUCCESS_SHOP_CATEGORY_UPDATE'     => 'Shop category has been updated successfully.',
+    'SUCCESS_SHOP_CATEGORY_DELETE'     => 'Shop category has been deleted successfully.',
+    'SUCCESS_SHOP_CATEGORY_STATUS'   => 'Shop category status has been updated successfully.',
+    
+    'SUCCESS_SHOP_SAVE'       => 'Shop has been saved successfully.',
+    'SUCCESS_SHOP_UPDATE'     => 'Shop has been updated successfully.',
+    'SUCCESS_SHOP_DELETE'     => 'Shop has been deleted successfully.',
+    'SUCCESS_SHOP_STATUS'   => 'Shop status has been updated successfully.',
+    
+    'SUCCESS_DINE_CATEGORY_SAVE'       => 'Dine category has been saved successfully.',
+    'SUCCESS_DINE_CATEGORY_UPDATE'     => 'Dine category has been updated successfully.',
+    'SUCCESS_DINE_CATEGORY_DELETE'     => 'Dine category has been deleted successfully.',
+    'SUCCESS_DINE_CATEGORY_STATUS'   => 'Dine category status has been updated successfully.',
+    
+    'SUCCESS_ENTERTAINMENT_CATEGORY_SAVE'       => 'Entertainment category has been saved successfully.',
+    'SUCCESS_ENTERTAINMENT_CATEGORY_UPDATE'     => 'Entertainment category has been updated successfully.',
+    'SUCCESS_ENTERTAINMENT_CATEGORY_DELETE'     => 'Entertainment category has been deleted successfully.',
+    'SUCCESS_ENTERTAINMENT_CATEGORY_STATUS'   => 'Entertainment category status has been updated successfully.',
+    
+    'SUCCESS_ENTERTAINMENT_SAVE'       => 'Entertainment has been saved successfully.',
+    'SUCCESS_ENTERTAINMENT_UPDATE'     => 'Entertainment has been updated successfully.',
+    'SUCCESS_ENTERTAINMENT_DELETE'     => 'Entertainment has been deleted successfully.',
+    'SUCCESS_ENTERTAINMENT_STATUS'   => 'Entertainment status has been updated successfully.',
+    
+    'SUCCESS_DINE_CATEGORY_SAVE'       => 'Dine category has been saved successfully.',
+    'SUCCESS_DINE_CATEGORY_UPDATE'     => 'Dine category has been updated successfully.',
+    'SUCCESS_DINE_CATEGORY_DELETE'     => 'Dine category has been deleted successfully.',
+    'SUCCESS_DINE_CATEGORY_STATUS'   => 'Dine category status has been updated successfully.',
+    
+    'SUCCESS_OFFERS_SAVE'       => 'Offers has been saved successfully.',
+    'SUCCESS_OFFERS_UPDATE'     => 'Offers has been updated successfully.',
+    'SUCCESS_OFFERS_DELETE'     => 'Offers has been deleted successfully.',
+    'SUCCESS_OFFERS_STATUS'   => 'Offers status has been updated successfully.',
+    
+    'SUCCESS_OFFERS_CATEGORY_SAVE'       => 'Offers category has been saved successfully.',
+    'SUCCESS_OFFERS_CATEGORY_UPDATE'     => 'Offers category has been updated successfully.',
+    'SUCCESS_OFFERS_CATEGORY_DELETE'     => 'Offers category has been deleted successfully.',
+    'SUCCESS_OFFERS_CATEGORY_STATUS'   => 'Offers category status has been updated successfully.',
+    
+    'SUCCESS_EVENTS_SAVE'       => 'Event has been saved successfully.',
+    'SUCCESS_EVENTS_UPDATE'     => 'Event has been updated successfully.',
+    'SUCCESS_EVENTS_DELETE'     => 'Event has been deleted successfully.',
+    'SUCCESS_EVENTS_STATUS'   => 'Event status has been updated successfully.',
+    
+    'SUCCESS_DINE_SAVE'       => 'Dine has been saved successfully.',
+    'SUCCESS_DINE_UPDATE'     => 'Dine has been updated successfully.',
+    'SUCCESS_DINE_DELETE'     => 'Dine has been deleted successfully.',
+    'SUCCESS_DINE_STATUS'   => 'Dine status has been updated successfully.',
+    
+    'SUCCESS_GALLERY_SAVE'     => 'Gallery has been saved successfully.',
+    'SUCCESS_GALLERY_UPDATE'   => 'Gallery has been updated successfully.',
+    'SUCCESS_GALLERY_DELETE'   => 'Gallery has been deleted successfully.',
+    'SUCCESS_GALLERY_STATUS'   => 'Gallery status has been updated successfully.',
+    
+    'SUCCESS_PHOTO_SAVE'     => 'Photo has been saved successfully.',
+    'SUCCESS_PHOTO_UPDATE'   => 'Photo has been updated successfully.',
+    'SUCCESS_PHOTO_DELETE'   => 'Photo has been deleted successfully.',
+    'SUCCESS_PHOTO_STATUS'   => 'Photo status has been updated successfully.',
+    
+    'SUCCESS_STATEMENT_SAVE'     => 'Financial statement has been saved successfully.',
+    'SUCCESS_STATEMENT_UPDATE'   => 'Financial statemen has been updated successfully.',
+    'SUCCESS_STATEMENT_DELETE'   => 'Financial statemen has been deleted successfully.',
+    'SUCCESS_STATEMENT_STATUS'   => 'Financial statemen status has been updated successfully.',
+    
+    'SUCCESS_NOTICE_SAVE'     => 'Notice has been saved successfully.',
+    'SUCCESS_NOTICE_UPDATE'   => 'Notice has been updated successfully.',
+    'SUCCESS_NOTICE_DELETE'   => 'Notice has been deleted successfully.',
+    'SUCCESS_NOTICE_STATUS'   => 'Notice status has been updated successfully.',
+    
+    'SUCCESS_MARKETING_SAVE'     => 'Marketing has been saved successfully.',
+    'SUCCESS_MARKETING_UPDATE'   => 'Marketing has been updated successfully.',
+    'SUCCESS_MARKETING_DELETE'   => 'Marketing has been deleted successfully.',
+    'SUCCESS_MARKETING_STATUS'   => 'Marketing status has been updated successfully.',
+    
+    'SUCCESS_LINKS_SAVE'     => 'Link has been saved successfully.',
+    'SUCCESS_LINKS_UPDATE'   => 'Link has been updated successfully.',
+    'SUCCESS_LINKS_DELETE'   => 'Link has been deleted successfully.',
+    'SUCCESS_LINKS_STATUS'   => 'Link status has been updated successfully.',
+    
+    'SUCCESS_BANNER_SAVE'     => 'Slide has been saved successfully.',
+    'SUCCESS_BANNER_UPDATE'   => 'Slide has been updated successfully.',
+    'SUCCESS_BANNER_DELETE'   => 'Slide has been deleted successfully.',
+    'SUCCESS_BANNER_STATUS'   => 'Slide status has been updated successfully.',
+    
+    'SUCCESS_NEWS_SAVE'     => 'News has been saved successfully.',
+    'SUCCESS_NEWS_UPDATE'   => 'News has been updated successfully.',
+    'SUCCESS_NEWS_DELETE'   => 'News has been deleted successfully.',
+    'SUCCESS_NEWS_STATUS'   => 'News status has been updated successfully.',
+    
+    'SUCCESS_BLOG_SAVE'     => 'Blog item has been saved successfully.',
+    'SUCCESS_BLOG_UPDATE'   => 'Blog item has been updated successfully.',
+    'SUCCESS_BLOG_DELETE'   => 'Blog item has been deleted successfully.',
+    'SUCCESS_BLOG_STATUS'   => 'Blog item status has been updated successfully.',
+    
+    'SUCCESS_PRODUCT_BRAND_SAVE'     => 'Product brand information has been saved successfully.',
+    'SUCCESS_PRODUCT_BRAND_UPDATE'   => 'Product brand information has been updated successfully.',
+    'SUCCESS_PRODUCT_BRAND_DELETE'   => 'Product brand information has been deleted successfully.',
+    'SUCCESS_PRODUCT_BRAND_STATUS'   => 'Product brand status has been updated successfully.',
+    
+    'SUCCESS_PRODUCT_USAGE_SAVE'     => 'Product usage information has been saved successfully.',
+    'SUCCESS_PRODUCT_USAGE_UPDATE'   => 'Product usage information has been updated successfully.',
+    'SUCCESS_PRODUCT_USAGE_DELETE'   => 'Product usage information has been deleted successfully.',
+    'SUCCESS_PRODUCT_USAGE_STATUS'   => 'Product usage status has been updated successfully.',
+    
+    'SUCCESS_PRODUCT_HP_SAVE'     => 'Product hp information has been saved successfully.',
+    'SUCCESS_PRODUCT_HP_UPDATE'   => 'Product hp information has been updated successfully.',
+    'SUCCESS_PRODUCT_HP_DELETE'   => 'Product hp information has been deleted successfully.',
+    'SUCCESS_PRODUCT_HP_STATUS'   => 'Product hp status has been updated successfully.',
+    
+    'SUCCESS_PRODUCT_SERIES_SAVE'     => 'Product series information has been saved successfully.',
+    'SUCCESS_PRODUCT_SERIES_UPDATE'   => 'Product series information has been updated successfully.',
+    'SUCCESS_PRODUCT_SERIES_DELETE'   => 'Product series information has been deleted successfully.',
+    'SUCCESS_PRODUCT_SERIES_STATUS'   => 'Product series status has been updated successfully.',
+    
+    'SUCCESS_PRODUCT_LIQUIDE_SAVE'     => 'Product liquide information has been saved successfully.',
+    'SUCCESS_PRODUCT_LIQUIDE_UPDATE'   => 'Product liquide information has been updated successfully.',
+    'SUCCESS_PRODUCT_LIQUIDE_DELETE'   => 'Product liquide information has been deleted successfully.',
+    'SUCCESS_PRODUCT_LIQUIDE_STATUS'   => 'Product liquide status has been updated successfully.',
+    
+    'SUCCESS_PRODUCTS_CATEGORY_SAVE'       => 'Product category has been saved successfully.',
+    'SUCCESS_PRODUCTS_CATEGORY_UPDATE'     => 'Product category has been updated successfully.',
+    'SUCCESS_PRODUCTS_CATEGORY_DELETE'     => 'Product category has been deleted successfully.',
+    'SUCCESS_PRODUCTS_CATEGORY_STATUS'   => 'Product category status has been updated successfully.',
+    
+    'SUCCESS_PRODUCTS_SAVE'       => 'Product has been saved successfully.',
+    'SUCCESS_PRODUCTS_UPDATE'     => 'Product has been updated successfully.',
+    'SUCCESS_PRODUCTS_DELETE'     => 'Product has been deleted successfully.',
+    'SUCCESS_PRODUCTS_STATUS'   => 'Product status has been updated successfully.',
+    
+    'SUCCESS_DEALER_SAVE'       => 'Dealer has been saved successfully.',
+    'SUCCESS_DEALER_UPDATE'     => 'Dealer has been updated successfully.',
+    'SUCCESS_DEALER_DELETE'     => 'Dealer has been deleted successfully.',
+    'SUCCESS_DEALER_STATUS'   => 'Dealer status has been updated successfully.',
+    
+    'SUCCESS_POLICE_STATION_SAVE'       => 'Police station has been saved successfully.',
+    'SUCCESS_POLICE_STATION_UPDATE'     => 'Police station has been updated successfully.',
+    'SUCCESS_POLICE_STATION_DELETE'     => 'Police station has been deleted successfully.',
+    'SUCCESS_POLICE_STATION_STATUS'   => 'Police station status has been updated successfully.',
+    
+    'SUCCESS_SHOW_ROOM_SAVE'       => 'Show room has been saved successfully.',
+    'SUCCESS_SHOW_ROOM_UPDATE'     => 'Show room has been updated successfully.',
+    'SUCCESS_SHOW_ROOM_DELETE'     => 'Show room has been deleted successfully.',
+    'SUCCESS_SHOW_ROOM_STATUS'   => 'Show room status has been updated successfully.',
+    
+    'SUCCESS_SERVICE_SAVE'     => 'Service information has been saved successfully.',
+    'SUCCESS_SERVICET_UPDATE'   => 'Service information has been updated successfully.',
+    'SUCCESS_SERVICE_DELETE'   => 'Service information has been deleted successfully.',
+    'SUCCESS_SERVICE_STATUS'   => 'Service status has been updated successfully.',
+    
+    'SUCCESS_SERVICE_SAVE'     => 'Service information has been saved successfully.',
+    'SUCCESS_SERVICE_UPDATE'   => 'Service information has been updated successfully.',
+    'SUCCESS_SERVICE_DELETE'   => 'Service information has been deleted successfully.',
+    
+    'SUCCESS_PRODUCT_CATEGORY_SAVE'     => 'Product category has been saved successfully.',
+    'SUCCESS_PRODUCT_CATEGORY_UPDATE'   => 'Product category has been updated successfully.',
+    'SUCCESS_PRODUCT_CATEGORY_DELETE'   => 'Product category has been deleted successfully.',
+    'SUCCESS_PRODUCT_CATEGORY_STATUS'   => 'Product category status has been updated successfully.',
+    
+    'SUCCESS_PRODUCT_SAVE'     => 'Product has been saved successfully.',
+    'SUCCESS_PRODUCT_UPDATE'   => 'Product has been updated successfully.',
+    'SUCCESS_PRODUCT_DELETE'   => 'Product has been deleted successfully.',
+    'SUCCESS_PRODUCT_STATUS'   => 'Product status has been updated successfully.',
+    
+    'SUCCESS_BLOCK_AREA_SAVE'     => 'Block area has been saved successfully.',
+    'SUCCESS_BLOCK_AREA_UPDATE'   => 'Block area has been updated successfully.',
+    'SUCCESS_BLOCK_AREA_DELETE'   => 'Block area has been deleted successfully.',
+    'SUCCESS_BLOCK_AREA_STATUS'   => 'Block area status has been updated successfully.',
+    
+    'SUCCESS_BLOCK_SAVE'     => 'Block has been saved successfully.',
+    'SUCCESS_BLOCK_UPDATE'   => 'Block has been updated successfully.',
+    'SUCCESS_BLOCK_DELETE'   => 'Block has been deleted successfully.',
+    'SUCCESS_BLOCK_STATUS'   => 'Block status has been updated successfully.',
+    
+    'SUCCESS_SIDEBAR_SAVE'     => 'Sidebar has been saved successfully.',
+    'SUCCESS_SIDEBAR_UPDATE'   => 'Sidebar has been updated successfully.',
+    'SUCCESS_SIDEBAR_DELETE'   => 'Sidebar has been deleted successfully.',
+    'SUCCESS_SIDEBAR_STATUS'   => 'Sidebar status has been updated successfully.',
+    
+    'SUCCESS_VIDEO_GALLERY_SAVE'     => 'Video has been saved successfully.',
+    'SUCCESS_VIDEO_GALLERY_UPDATE'   => 'Video has been updated successfully.',
+    'SUCCESS_VIDEO_GALLERY_DELETE'   => 'Video has been deleted successfully.',
+    'SUCCESS_VIDEO_GALLERY_STATUS'   => 'Video status has been updated successfully.',
+    
+    'SUCCESS_MEDIA_SAVE'   => 'Media has been uploaded successfully.',
+    'SUCCESS_MEDIA_DELETE'   => 'Media has been deleted successfully.',
+    
+    'SUCCESS_SETTINGS_SAVE'   => 'Settings has been uploaded successfully.',
+    'SUCCESS_SETTINGS_UPDATE'   => 'Settings has been updated successfully.',
+    
+    // User role module
+    'SUCCESS_USER_ROLE_SAVE'     => 'User role has been saved successfully.',
+    'SUCCESS_USER_ROLE_UPDATE'   => 'User role has been updated successfully.',
+    'SUCCESS_USER_ROLE_DELETE'   => 'User role has been deleted successfully.',
+    'SUCCESS_USER_ROLE_STATUS'   => 'User role status has been updated successfully.',
+    'INVALID_ACCESS'   => 'Sorry to say, your access is insufficient for this action !!',
+    
+    // User module
+    'SUCCESS_USER_SAVE'     => 'User has been saved successfully.',
+    'SUCCESS_USER_UPDATE'   => 'User has been updated successfully.',
+    'SUCCESS_USER_DELETE'   => 'User has been deleted successfully.',
+    'SUCCESS_USER_STATUS'   => 'User status has been updated successfully.',
+);
+
