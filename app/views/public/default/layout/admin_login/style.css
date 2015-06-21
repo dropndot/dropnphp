@@ -1,0 +1,224 @@
+/*	
+        Theme Name: Project name
+        Theme URI: Client web address
+        Description: A customize website development 
+        Author: Client given name	
+        Author URI: Client given website name	
+        Version: 1.0
+
+========================================
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    font-family:Arial, Helvetica, sans-serif
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+:focus {
+    outline: none;
+} 
+ins {
+    text-decoration: none;
+}
+del {
+    text-decoration: line-through;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+/*-----------------------------------Page Structure
+*/
+#wrap{
+    margin:0 auto;
+    max-width:960px;
+    text-align:left;
+    min-height:400px;
+}
+
+/*Fonts*/
+@font-face {font-family:"OpenSans";
+            src:url("fonts/Open_Sans/OpenSans-Regular.eot?") format("eot"),
+                url("fonts/Open_Sans/OpenSans-Regular.woff") format("woff"),
+                url("fonts/Open_Sans/OpenSans-Regular.ttf") format("truetype"),
+                url("fonts/Open_Sans/OpenSans-Regular.svg#OpenSans") format("svg");
+}
+@font-face {font-family:"OpenSansBold";
+            src:url("fonts/opensans_bold/OpenSans-Bold.eot?") format("eot"),
+                url("fonts/opensans_bold/OpenSans-Bold.woff") format("woff"),
+                url("fonts/opensans_bold/OpenSans-Bold.ttf") format("truetype"),
+                url("fonts/opensans_bold/OpenSans-Bold.svg#OpenSans-Bold") format("svg");
+}
+@font-face {font-family:"OpenSansSemibold";
+            src:url("fonts/opensans_semibold/OpenSans-Semibold.eot?") format("eot"),
+                url("fonts/opensans_semibold/OpenSans-Semibold.woff") format("woff"),
+                url("fonts/opensans_semibold/OpenSans-Semibold.ttf") format("truetype"),
+                url("fonts/opensans_semibold/OpenSans-Semibold.svg#OpenSans-Semibold") format("svg");
+}
+
+
+/*---------------------- Main Body*/
+
+body
+{
+    float:left;
+    width:100%;
+    background:#FCFAFA;
+    font-family:OpenSans;
+}
+.ddlogin-wrap
+{
+    margin:104px auto;
+    max-width:360px;
+}
+.logoblock
+{
+    float:left;
+    width:100%;
+}
+.ddlogo-textheader
+{
+    font-family:OpenSans;
+    font-size:12px;
+    color:#202A37;
+    text-transform:uppercase;margin-top:14px;font-weight:bold;
+}
+.ddlogo-textfooter
+{
+    font-family:OpenSans;
+    font-size:12px;
+    color:#7D7D7D;
+    text-transform:none;
+}
+.logoblock-footer
+{
+    overflow: hidden;
+}
+.login_err {
+    font-family:OpenSans;
+    color: #FFF;
+    background: #fb67ad;
+    padding: 10px;
+    margin-bottom: 15px;
+    text-align: center;
+    line-height: 20px;
+}
+.login_success {
+    font-family:OpenSans;
+    color: #FFF;
+    background:#64725C;;
+    padding: 10px;
+    margin-bottom: 15px;
+    text-align: center;
+    line-height: 20px;
+}
+/* End of Main body  */
+/*---------------------- Footer
+*/
+#footer{
+    max-width:960px;
+    margin: 0 auto;
+}
+#footer p{
+    padding:0 0 0 0;
+}
+.ddloginsubmit
+{
+    background:#FF6C60;
+    min-height:34px;
+    min-width:100px;
+    float:left;
+    border:none;
+    font-size:17px;
+    font-family:OpenSansBold;
+    color:#fff;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+.logoblock-header
+{
+    margin-bottom:35px;
+}
+.ddlogin-form form label,.ddlogin-form
+{
+    float:left;
+    width:100%;
+}
+.dduserpass
+{
+    min-height: 34px;
+    font-family: OpenSans;
+    font-size: 13px;
+    color: #7F7F7F;
+    padding-left: 3%;
+    float:left;
+    width:97%;
+    border: 1px solid #919191;box-shadow: 0px 0px 5px 0px #ccc;
+}
+.ddlogin-form form label input
+{
+    float:left;margin-bottom:17px;
+}
+.ddlogin-form form label a
+{
+    float:right;text-decoration:none;font-family:OpenSans;
+    font-size:12.5px;
+    color:#546C88;margin-top: 5px;
+}
+.center-submit
+{
+    margin:0auto;
+    width:100px;
+}
+.ddlogin-form form label p
+{
+    float:left;text-decoration:none;font-family:OpenSans;
+    font-size:13px;
+    color:#293541;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+.footwrap
+{
+    float:left;
+    width:100%;
+    background:url(images/footbg.png) repeat-x #fff;
+    border-top:1px solid #EDE9E9;
+    padding: 24px 0px;
+}
+/* End of Footer */
